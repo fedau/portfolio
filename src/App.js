@@ -1,13 +1,11 @@
 
 import './App.css';
+import MainContainer from './containers/MainContainer';
 
 function App() {
   return (
     <div className="App">
-   <h1>
-    HI this page is under construction
-    </h1> 
-    <h2> Please wait </h2>
+      <MainContainer/>
     </div>
   );
 }
