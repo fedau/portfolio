@@ -8,6 +8,7 @@ const Home = () => (
     <h4>Home</h4>
     <p>HI I am Fedau </p>
     <p>I am a software developper I have made different projects these past few months please check them out </p>
+    <p> testt </p>
 
   </div>
 );
