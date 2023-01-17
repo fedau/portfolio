@@ -34,8 +34,8 @@ const NavBar = () => {
     
      <Nav>
             {/* <List> */}
-                <StyledLink to="/portfolio/">Home</StyledLink>
-                <StyledLink to="/portfolio/about">About</StyledLink>
+                <StyledLink to="/">Home</StyledLink>
+                <StyledLink to="/about">About</StyledLink>
             {/* </List> */}
       </Nav>
   
