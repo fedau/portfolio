@@ -20,40 +20,79 @@
 .name{
     
     color: var(--brown);
-    font-size: 8rem ;
+    /* font-size: 8rem ; */
+    font-size:10vw
 }
 
 .card-wrapper{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap
+
 
 }
+
+@media only screen and (max-width: 800px) {
+    .card-wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
 
 .about{
     background-color: var(--redish);
     color: var(--creme);
-    width: 20vw;
+    width: 100px;
     padding: 1rem;
     margin: 1rem;
   text-decoration: none;
+  flex: 0 0 23%;
+  height: 150px;
 
 
 }
+@media only screen and (max-width: 800px) {
+    .about {
+        width: 161px;
+        height: 148px;
+    }
+  }
 
 .pythonP{
     background-color: var(--aqua);
     color: var(--creme);
-    width: 20vw;
+    width: 150px;
     padding: 1rem;
     margin: 1rem;
+    text-decoration: none;
+    height: 148px;
+    flex: 0 0 23%;
+
+
 
 }
+@media only screen and (max-width: 800px) {
+    .pythonP {
+        width: 161px;
+        height: 148px;
+    }
+  }
 
 .shelterP{
     background-color: var(--redish);
     color: var(--creme);
-    width: 20vw;
+    width: 150px;
     padding: 1rem;
     margin: 1rem;
- 
+    text-decoration: none;
+    flex: 0 0 23%;
+    height: 150px;
+
 }
+
+@media only screen and (max-width: 800px) {
+    .shelterP {
+        width: 161px;
+        height: 148px;
+    }
+  }
