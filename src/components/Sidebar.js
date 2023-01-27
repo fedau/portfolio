@@ -10,7 +10,13 @@ export default props => {
         Home
       </a>
       <a className="menu-item" href="/about">
-        Contact
+        About Me
+      </a>
+      <a className="menu-item" href="/recipe">
+        Recipe Project in Python
+      </a>  
+      <a className="menu-item" href="/shelter">
+        Animal Shelter in ReactJS
       </a>
       {/* <a className="menu-item" href="/pizzas">
         Pizzas

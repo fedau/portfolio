@@ -6,6 +6,8 @@ import NavBar from "../components/NavBar";
 import ErrorPage from "../components/ErrorPage";
 import Sidebar from "../components/Sidebar";
 import '../App.css';
+import RecipeProject from "../components/RecipeProject";
+import ShelterProject from "../components/ShelterProject";
 
 
 
@@ -17,6 +19,10 @@ const MainContainer = () => {
     <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/about" element={<About/>}/>
+      <Route path="/recipe" element={<RecipeProject/>}/>
+      <Route path="/shelter" element={<ShelterProject/>}/>
+
+      
       <Route path="*" element={<ErrorPage/>}/>
     </Routes>
    </Router>
