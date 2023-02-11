@@ -1,0 +1,30 @@
+:root{
+    --darkgreen: #283D3B;
+    --aqua: #197278;
+    --creme: #EDDDD4;
+    --redish: #C44536;
+    --brown: #772E25;
+  }
+
+
+.outer-wrapperA{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    /* margin-left: 80px; */
+    width: 60vw;
+    margin-top: 1rem;
+    
+  }
+
+  .inner-wrapperA{
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .pageTitle{
+    color: var(--redish);
+  }

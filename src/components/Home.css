@@ -17,9 +17,21 @@
   
 }
 
+a{
+  text-decoration: none;
+}
+
+img{
+  height: 170px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
 .name{
   
-  color: var(--brown);
+  color: var(--redish);
   /* font-size: 8rem ; */
   font-size:10vw
 }
@@ -47,7 +59,7 @@
   margin: 1rem;
 text-decoration: none;
 flex: 0 0 23%;
-height: 150px;
+height: 250px;
 
 
 }
@@ -65,7 +77,7 @@ height: 150px;
   padding: 1rem;
   margin: 1rem;
   text-decoration: none;
-  height: 148px;
+  height: 250px;
   flex: 0 0 23%;
 
 
@@ -87,7 +99,7 @@ height: 150px;
   margin: 1rem;
   text-decoration: none;
   flex: 0 0 23%;
-  height: 150px;
+  height: 250px;
 
 }
 
